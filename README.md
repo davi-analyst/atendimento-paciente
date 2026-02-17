@@ -1,4 +1,4 @@
-📊 Analisador de Atendimentos (CSV)
+# 📊 Analisador de Atendimentos (CSV)
 Este script em Python automatiza a leitura e análise de logs de atendimento de pacientes, transformando dados brutos de um arquivo CSV em um relatório organizado.
 
 # O que ele faz?
@@ -13,6 +13,10 @@ Análise de Assunto: Identifica a recorrência de palavras-chave estratégicas (
 # Como usar
 Certifique-se de que o arquivo CSV está no caminho especificado:
 C:\Users\onde-você-colocou-o-arquivo-"lista-de-atendimento.csv"
+
+Dentro do código, substitua a instrução de caminho pelo path que estiver a lista-atendimento-paciente.csv. Para encontrar no código onde fazer a substituição pressione ctrl + f e digite alguma dessas palavras: "onde; você; colocou;", cole seu caminho. 
+
+*ATENÇÃO!*  Se tentar rodar sem a substituição encontrará erro.
 
 O arquivo deve seguir o formato: Data, Paciente, Assunto (separados por vírgula).
 
