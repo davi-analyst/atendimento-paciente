@@ -7,7 +7,7 @@ key_words = ['agendamento', 'exame', 'convênio']
 words_count = {word: 0 for word in key_words} 
 
 # Abertura e processamento do arquivo
-with open(r'C:\Users\eletr\Documents\T.I Estudos\Programinhas e Exercícios\lista-atendimento-paciente', mode='r', encoding='utf-8') as file:
+with open(r'C:\copie-aqui-o-caminho-até-onde-guardou-a-lista-csv\', mode='r', encoding='utf-8') as file:
     reader = csv.reader(file, delimiter=',', skipinitialspace=True)
     
     for line in reader:
@@ -36,3 +36,4 @@ print(f"\nPalavras-chave: ")
 for word, count in words_count.items():
 
     print(f"  {word.capitalize()}: {count}")
+
